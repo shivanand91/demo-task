@@ -1,12 +1,16 @@
 import CreateTeamForm from "./components/CreateTeamForm"
+import Footer from "./components/Footer"
+import Navbar from "./components/Navbar"
+import HeroSection from "./components/HeroSection"
 
 
 function App() {
 
   return (
     <>
-      <h1 className="text-red-800 font-bold text-5xl">hello</h1>
-      <CreateTeamForm />
+      <Navbar />
+      <HeroSection />
+      <Footer />
     </>
   )
 }
